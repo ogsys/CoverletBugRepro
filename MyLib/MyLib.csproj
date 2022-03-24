@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!--
+      I have added these to show that they do not fix the problem.  I would
+      not expect them to fix the problem, as I believe they are used only in
+      .NET Core/5+ projects and have no effect against .NET Framework.
+    -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+  </PropertyGroup>
+
 </Project>
