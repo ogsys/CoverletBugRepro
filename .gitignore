@@ -1,0 +1,30 @@
+# Visual Studio local settings
+.vs/
+*.suo
+*.user
+*.cache
+
+# Build products
+obj/
+bin/
+
+# Testing
+TestResults
+coverage.*
+
+# Temporary files
+*.log
+*.old
+*.tmp
+
+# Git-related files
+*.orig
+*.patch
+*.rej
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# macOS junk
+.DS_Store
